@@ -16,3 +16,9 @@ console.log("Pancake: $80");
 total += 80;
 console.log("\nIncome: $" + total);
 
+staff_expences = Number(input("Staff expenses: "))
+other_expences = Number(input("Other expenses: "))
+
+let net = total - (staff_expences + other_expences)
+
+console.log("Net income: $" + net)
