@@ -1,0 +1,23 @@
+button {
+    background-color: aqua;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#error {
+    background-color: red;
+    width: 10%;
+}
+
+ol {
+    background-color: deepskyblue;
+    max-width: 50%;
+    border-radius: 6px;
+}
