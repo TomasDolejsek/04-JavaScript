@@ -1,0 +1,38 @@
+.user {
+    background-color: skyblue;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    width: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex; /* Make it a flexbox container */
+    align-items: center; /* Vertically center content */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user > .photo {
+    width: 80px; /* Adjust image size as needed */
+    height: 80px;
+    border-radius: 50%; /* Circle for profile picture */
+    margin-right: 1rem;
+}
+
+.user .name {
+    flex: 1; /* Allow details to fill remaining space */
+    margin: 1rem;
+}
+
+.user-info-card h3,
+.user-info-card p {
+    margin: 0; /* Remove default margins for better spacing */
+}
+
+.user-info-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.user-info-card p {
+    color: #666;
+}
